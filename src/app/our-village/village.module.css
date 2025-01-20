@@ -280,6 +280,7 @@
 .peopleCard {
     position: relative;
     overflow: hidden;
+    text-align: center;
 }
 
 .peopleCard:hover .peopleImg {
@@ -295,14 +296,12 @@
 .peopleName{
     margin: 5%;
     font-family: Montserrat;
-    font-size: 23px;
+    font-size: 26px;
     font-weight: 800;
     line-height: 28.04px;
     letter-spacing: 0.14em;
-    text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    
 }
 
 .peopleRole {
@@ -311,24 +310,20 @@
     font-style: italic;
     font-weight: 500;
     line-height: 29.98px;
-    text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
 }
 
 .peopleQuote{
     width: 80%;
     margin: 5%;
     font-family: Montserrat;
-    font-size: 26px;
+    font-size: clamp(20px, 21vw, 26px);
     font-style: italic;
     font-weight: 500;
     line-height: 31.69px;
-    text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
 }
 
 @keyframes appear {
