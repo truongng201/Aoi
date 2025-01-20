@@ -30,7 +30,7 @@
   color: #ffbf4d;
 }
 
-.secondBlock .image {
+.secondBlock .firstImage {
   position: absolute;
   width: 480px;
   height: 360px;
@@ -56,4 +56,101 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #f3e0c7;
+}
+
+.secondBlock .divider {
+  position: absolute;
+  width: 852px;
+  top: 1012px;
+  height: 0px;
+  left: 328px;
+  border-top: 5px solid #f3e0c7;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+
+.secondBlock .thirdContent {
+  position: absolute;
+  width: 393px;
+  height: 446px;
+  top: 1240px;
+  left: 112px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff0d6;
+}
+
+.secondBlock .forthContent {
+  position: absolute;
+  width: 393px;
+  height: 307px;
+  top: 1240px;
+  left: 580px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff0d6;
+}
+
+.secondBlock .secondImage {
+  position: absolute;
+  top: 1229px;
+  left: 1028px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.secondBlock img {
+  width: 100%;
+  height: 100%;
+}
+
+.secondBlock .fifthContent {
+  position: absolute;
+  width: 436px;
+  height: 163px;
+  top: 1730px;
+  left: 114px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffbf4d;
+}
+
+.secondBlock .sixthContent {
+  position: absolute;
+  width: 436px;
+  height: 163px;
+  top: 1730px;
+  left: 579px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffbf4d;
 }
