@@ -1,0 +1,59 @@
+.secondBlock {
+  background-color: #365f2e;
+  height: 300vh;
+  position: relative;
+}
+
+.secondBlock .firstContent {
+  position: absolute;
+  width: 1260px;
+  height: 299px;
+  left: 108px;
+  top: 110px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 73px;
+  color: #f3e0c7;
+}
+
+.secondBlock .firstContent > span {
+  font-family: "Montserrat";
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 73.14px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffbf4d;
+}
+
+.secondBlock .image {
+  position: absolute;
+  width: 480px;
+  height: 360px;
+  top: 473px;
+  left: 138px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.secondBlock .secondContent {
+  position: absolute;
+  width: 500px;
+  height: 216px;
+  top: 473px;
+  left: 730px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 37px;
+  font-weight: 500;
+  line-height: 45.1px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f3e0c7;
+}
