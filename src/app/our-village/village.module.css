@@ -10,24 +10,18 @@
 .intro {
     background-color: var(--green);
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .navigationButton {
-    position: absolute;
+    position: sticky;
     background-color: var(--red);
     color: #fff;
-    width: 50px;
+    width: 5%;
     aspect-ratio: 1 / 1;
     top: 3%;
     left: 2%;
-    border-radius: 10px 10px 10px 10px;
-    opacity: 0px;
+    border-radius: 10px;
     border: none;
     font-size: 20px;
     display: flex;
@@ -37,64 +31,99 @@
 }
 
 .content {
+    height: 100vh;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    color: #fdf8dc; /* Cream text color */
-    font-style: 'Monteserrat', 500;
+    color: var(--cream);
 }
 
-.logo {    
+.header {
     position: absolute;
+    top: 3%;    
+}
+
+.logo {
     object-fit: contain;
-    top: 3%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 8.5%;
+    width: 10%;
     margin: 0;
     padding: 0;
-}
-
-.dot {
-    color: #e9a423;
 }
 
 .subtitle {
     font-size: 40px;
     font-family: '1FTV HF Gesco', sans-serif;
     font-weight: 500;
-    margin: 10px 0;
     text-transform: uppercase;
+    margin-top: 3%;
 }
 
 .tagline {
-    font-size: 24px;
-    font-weight: 300;
-    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 500;
     line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .highlight {
-    color: #e9a423; /* Yellow color */
-    font-weight: bold;
-}
-
-.graphics {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    position: absolute;
-    bottom: 20px;
+    color: var(--yellow); 
+    font-weight: 700;
 }
 
 .graphicLeft,
 .graphicRight {
-    width: 150px;
-    height: 100px;
-    background: url('/path-to-graphic.svg') no-repeat center/contain;
+    position: absolute;
+    bottom: 12%;
+}
+
+.graphicLeft {
+    left: 0%;
+}
+
+.graphicRight {
+    right: 0%;
 }
 
 /* Values section */
 
 .values {
+    background-color: var(--cream);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.valuesContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.border {
+    width: 55%;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    border-radius: 5px;
+}
+
+/* People section */
+
+.people {
     background-color: var(--cream);
     height: 100vh;
     display: flex;
