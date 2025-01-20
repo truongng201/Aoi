@@ -1,160 +1,252 @@
 .firstBlock {
   background-color: #f3e0c7;
-  height: 100vh;
+  height: 145vh;
   position: relative;
-}
-
-.firstBlock svg {
-  width: 75%;
-  height: 75%;
 }
 
 .firstBlock .vector1 {
   position: absolute;
-  right: 50%;
-  top: 30%;
+  width: 198.85px;
+  height: 222.3px;
+  top: 412.09px;
+  left: 332.83px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector2 {
   position: absolute;
-  right: 40%;
-  top: 30%;
+  width: 169.44px;
+  height: 143.25px;
+  top: 394.63px;
+  left: 565.96px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector3 {
   position: absolute;
-  right: 40%;
-  top: 30%;
+  width: 39.77px;
+  height: 124.01px;
+  top: 413.1px;
+  left: 756.82px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector4 {
   position: absolute;
-  right: 38%;
-  top: 40%;
+  width: 27.05px;
+  height: 27.71px;
+  top: 514.04px;
+  left: 821.08px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector5 {
   position: absolute;
-  right: 36%;
-  top: 42%;
+  width: 20.64px;
+  height: 21.15px;
+  top: 523.5px;
+  left: 870.33px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector6 {
   position: absolute;
-  right: 34%;
-  top: 44%;
+  width: 16.11px;
+  height: 16.51px;
+  top: 543.37px;
+  left: 915.89px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector7 {
   position: absolute;
-  right: -10%;
-  top: 0.32%;
+  width: 1036.52px;
+  height: 858px;
+  top: 16px;
+  left: 978.48px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector8 {
   position: absolute;
-  right: -8%;
-  top: 33%;
+  width: 663.47px;
+  height: 607.25px;
+  top: 332.06px;
+  left: 1091.69px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector9 {
   position: absolute;
-  right: -6%;
-  top: 50%;
+  width: 375.2px;
+  height: 391.13px;
+  top: 519.2px;
+  left: 1248.22px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector10 {
   position: absolute;
-  right: 97.3%;
-  top: 60%;
+  width: 309.78px;
+  height: 42.8px;
+  top: 728.93px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector11 {
   position: absolute;
-  right: 84.09%;
-  top: 57.5%;
+  width: 221.57px;
+  height: 42.21px;
+  top: 703.02px;
+  left: 18.94px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector12 {
   position: absolute;
-  right: 84%;
-  top: 50%;
+  width: 91.85px;
+  height: 57.98px;
+  top: 623.72px;
+  left: 198.73px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector13 {
   position: absolute;
-  right: 81%;
-  top: 55%;
+  width: 94.5px;
+  height: 54.18px;
+  top: 672.6px;
+  left: 251.31px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector14 {
   position: absolute;
-  right: 97.45%;
-  top: 63%;
+  width: 307.58px;
+  height: 44.53px;
+  top: 753.29px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector15 {
   position: absolute;
-  right: 80.49%;
-  top: 61.2%;
+  width: 275px;
+  height: 40.92px;
+  top: 735.67px;
+  left: 20.04px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector16 {
   position: absolute;
-  right: 97.4%;
-  top: 67%;
+  width: 308.31px;
+  height: 48px;
+  top: 778.61px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector17 {
   position: absolute;
-  right: 71%;
-  top: 61%;
+  width: 417.18px;
+  height: 102.39px;
+  top: 721.15px;
+  left: 18.15px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector18 {
   position: absolute;
-  right: 71%;
-  top: 77%;
+  width: 497.74px;
+  height: 68.77px;
+  top: 832.04px;
+  left: 3.22px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector19 {
   position: absolute;
-  right: 57%;
-  top: 73.5%;
+  width: 356.01px;
+  height: 67.82px;
+  top: 790.42px;
+  left: 465.85px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector20 {
   position: absolute;
-  right: 57%;
-  top: 59%;
+  width: 147.58px;
+  height: 93.16px;
+  top: 663px;
+  left: 754.75px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector21 {
   position: absolute;
-  right: 52%;
-  top: 68%;
+  width: 151.84px;
+  height: 87.05px;
+  top: 741.54px;
+  left: 839.23px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector22 {
   position: absolute;
-  right: 67%;
-  top: 81%;
+  width: 494.21px;
+  height: 71.54px;
+  top: 871.2px;
+  left: 3.22px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector23 {
   position: absolute;
-  right: 48%;
-  top: 79%;
+  width: 441.85px;
+  height: 65.77px;
+  top: 842.85px;
+  left: 467.63px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector24 {
   position: absolute;
-  right: 67%;
-  top: 86%;
+  width: 495.38px;
+  height: 77.12px;
+  top: 911.88px;
+  left: 3.22px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .firstBlock .vector25 {
   position: absolute;
-  right: 33%;
-  top: 77%;
+  width: 670.31px;
+  height: 164.51px;
+  top: 819.57px;
+  left: 464.59px;
+  gap: 0px;
+  opacity: 0px;
 }
