@@ -1,0 +1,160 @@
+.firstBlock {
+  background-color: #f3e0c7;
+  height: 100vh;
+  position: relative;
+}
+
+.firstBlock svg {
+  width: 75%;
+  height: 75%;
+}
+
+.firstBlock .vector1 {
+  position: absolute;
+  right: 50%;
+  top: 30%;
+}
+
+.firstBlock .vector2 {
+  position: absolute;
+  right: 40%;
+  top: 30%;
+}
+
+.firstBlock .vector3 {
+  position: absolute;
+  right: 40%;
+  top: 30%;
+}
+
+.firstBlock .vector4 {
+  position: absolute;
+  right: 38%;
+  top: 40%;
+}
+
+.firstBlock .vector5 {
+  position: absolute;
+  right: 36%;
+  top: 42%;
+}
+
+.firstBlock .vector6 {
+  position: absolute;
+  right: 34%;
+  top: 44%;
+}
+
+.firstBlock .vector7 {
+  position: absolute;
+  right: -10%;
+  top: 0.32%;
+}
+
+.firstBlock .vector8 {
+  position: absolute;
+  right: -8%;
+  top: 33%;
+}
+
+.firstBlock .vector9 {
+  position: absolute;
+  right: -6%;
+  top: 50%;
+}
+
+.firstBlock .vector10 {
+  position: absolute;
+  right: 97.3%;
+  top: 60%;
+}
+
+.firstBlock .vector11 {
+  position: absolute;
+  right: 84.09%;
+  top: 57.5%;
+}
+
+.firstBlock .vector12 {
+  position: absolute;
+  right: 84%;
+  top: 50%;
+}
+
+.firstBlock .vector13 {
+  position: absolute;
+  right: 81%;
+  top: 55%;
+}
+
+.firstBlock .vector14 {
+  position: absolute;
+  right: 97.45%;
+  top: 63%;
+}
+
+.firstBlock .vector15 {
+  position: absolute;
+  right: 80.49%;
+  top: 61.2%;
+}
+
+.firstBlock .vector16 {
+  position: absolute;
+  right: 97.4%;
+  top: 67%;
+}
+
+.firstBlock .vector17 {
+  position: absolute;
+  right: 71%;
+  top: 61%;
+}
+
+.firstBlock .vector18 {
+  position: absolute;
+  right: 71%;
+  top: 77%;
+}
+
+.firstBlock .vector19 {
+  position: absolute;
+  right: 57%;
+  top: 73.5%;
+}
+
+.firstBlock .vector20 {
+  position: absolute;
+  right: 71%;
+  top: 65%;
+}
+
+.firstBlock .vector21 {
+  position: absolute;
+  right: 71%;
+  top: 65%;
+}
+
+.firstBlock .vector22 {
+  position: absolute;
+  right: 71%;
+  top: 65%;
+}
+
+.firstBlock .vector23 {
+  position: absolute;
+  right: 71%;
+  top: 65%;
+}
+
+.firstBlock .vector24 {
+  position: absolute;
+  right: 71%;
+  top: 65%;
+}
+
+.firstBlock .vector25 {
+  position: absolute;
+  right: 71%;
+  top: 65%;
+}
