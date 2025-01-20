@@ -1,0 +1,180 @@
+.footer {
+  background-color: #a51f23;
+  color: white;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 437px;
+  bottom: 0;
+}
+.vectorAfirst {
+  position: absolute;
+  left: 0%;
+  right: 66.82%;
+  top: 0%;
+  bottom: 0%;
+  opacity: 0.52;
+}
+.vectorAfirstLine {
+  position: absolute;
+  left: 1.38%;
+  right: 66.4%;
+  top: 62.2%;
+  bottom: 17.43%;
+  opacity: 0.52;
+}
+.vectorVfirst {
+  position: absolute;
+  left: 25%;
+  top: 0%;
+  bottom: 0%;
+  opacity: 0.52;
+}
+.vectorVfirstLine {
+  position: absolute;
+  left: 25%;
+  top: 17.43%;
+  bottom: 62.2%;
+  opacity: 0.52;
+}
+
+.vectorAsecondary {
+  position: absolute;
+  left: 50%;
+  right: 0.42%;
+  top: 0%;
+  bottom: 0%;
+  opacity: 0.52;
+}
+.vectorAsecondaryLine {
+  position: absolute;
+  left: 50%;
+  right: 0%;
+  top: 62.2%;
+  bottom: 17.43%;
+  opacity: 0.52;
+}
+
+.vectorVsecondary {
+  position: absolute;
+  left: 75.42%;
+  bottom: 0.1%;
+  opacity: 0.52;
+}
+
+.vectorVsecondaryLine {
+  position: absolute;
+  left: 75.4%;
+  right: 0.86%;
+  top: 17.43%;
+  opacity: 0.52;
+}
+.footercontent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+  text-align: left;
+}
+
+.footercontent div {
+  flex: 1;
+  min-width: 250px;
+}
+
+.newsletter h3 {
+  position: absolute;
+  top: 28%;
+  left: 11%;
+  font-style: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.newsletter p{
+  position: absolute;
+  top: 32%;
+  left: 11%;
+  font-style: "Montserrat";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  width: 240px;
+}
+.visit h3{
+  position: absolute;
+  top: 28%;
+  left: 54%;
+  font-style: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.visit p{
+  position: absolute;
+  top: 33%;
+  left: 54%;
+  font-style: "Montserrat";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  width: 304px;
+}
+.contact h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.newsletter p,
+
+.contact p {
+  margin: 0.5rem 0;
+}
+
+.newsletter hr {
+  border: none;
+  border-top: 1px solid white;
+  width: 50px;
+  margin-top: 0.5rem;
+}
+
+.socialicons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.socialicons i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.socialicons i:hover {
+  color: #ffd700; /* Highlight color on hover */
+}
+
+.footerbottom {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footerbottom a {
+  color: white;
+  text-decoration: underline;
+}
+
+.footerbottom a:hover {
+  color: #ffd700;
+}
+.footercontent div {
+  position: relative;
+  z-index: 1;
+}

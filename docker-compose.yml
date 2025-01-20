@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: next-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000" # Exposes your app on localhost:3000
+    volumes:
+      - .:/usr/src/app # Sync local files with the container
+      - /usr/src/app/node_modules # Prevents node_modules overwrite
+    environment:
+      NODE_ENV: development # Set the environment
+    command: "npm run dev" # Starts the Next.js development server
