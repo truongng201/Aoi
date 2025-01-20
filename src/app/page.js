@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import Footer from "@/components/footer";
 import FirstBlock from "@/components/home/firstblock";
+import ForthBlock from "@/components/home/forthblock";
 import SecondBlock from "@/components/home/secondblock";
 import ThirdBlock from "@/components/home/thirdblock";
 
@@ -11,7 +12,7 @@ export default function Home() {
         <FirstBlock />
         <SecondBlock />
         <ThirdBlock />
-        <div className={styles.forthBlock}>Yo</div>
+        <ForthBlock/>
       </div>
       <Footer />
     </>

@@ -9,8 +9,9 @@ export default function ThirdBlock() {
       <div className={styles.firstContent}>
         À Ơi - Awakening the soul of <br /> Vietnam, bridging timeless{" "}
         <span>
-          cultural <br /> heritage
-        </span>
+          {" "}
+          cultural <br /> heritage{" "}
+        </span>{" "}
         with <span>modern hearts.</span>
       </div>
       <div className={styles.leftImage}>
@@ -19,9 +20,7 @@ export default function ThirdBlock() {
       <div className={styles.rightImage}>
         <Image src={image3} alt="rightImage" />
       </div>
-      <div className={styles.firstRoute}>
-        
-      </div>
+      <div className={styles.firstRoute}></div>
     </div>
   );
 }

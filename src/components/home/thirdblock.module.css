@@ -8,13 +8,13 @@
   position: absolute;
   width: 1260px;
   height: 69px;
-  top: 87px;
-  left: 124px;
+  top: 50px;
+  left: 110px;
   gap: 0px;
   opacity: 0px;
-  font-family: "1FTV HF Gesco";
+  font-family: "Montserrat";
   font-size: 70px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 96.39px;
   text-align: center;
   text-underline-position: from-font;
@@ -31,7 +31,7 @@
   gap: 0px;
   opacity: 0px;
   font-family: "Montserrat";
-  font-size: 59px;
+  font-size: 49px;
   font-weight: 500;
   line-height: 71.92px;
   text-align: center;

@@ -1,0 +1,63 @@
+.forthBlock {
+  background-color: #0f0e0e;
+  height: 100vh;
+  position: relative;
+}
+
+.forthBlock .firstContent {
+  position: absolute;
+  width: 815px;
+  height: 373px;
+  top: 184px;
+  left: 78px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39.01px;
+  text-align: justify;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f3e0c7;
+}
+
+.forthBlock .secondContent {
+  position: absolute;
+  width: 363px;
+  height: 379px;
+  top: 184px;
+  left: 1005px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 65.83px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f3e0c7;
+}
+
+.forthBlock .contactUs {
+  position: absolute;
+  width: 281px;
+  height: 71px;
+  top: 522px;
+  left: 89px;
+  gap: 0px;
+  border-radius: 37px;
+  opacity: 0px;
+  background-color: #f3e0c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39.01px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #0f0e0e;
+}
