@@ -6,7 +6,6 @@
 }
 
 /* Intro section */
-
 .intro {
     background-color: var(--green);
     height: 100vh;
@@ -47,7 +46,7 @@
 
 .header {
     position: absolute;
-    top: 3%;    
+    top: 3%;  
 }
 
 .logo {
@@ -60,7 +59,6 @@
 .subtitle {
     font-size: 40px;
     font-family: '1FTV HF Gesco', sans-serif;
-    font-weight: 500;
     text-transform: uppercase;
     margin-top: 3%;
 }
@@ -95,21 +93,70 @@
 
 .values {
     background-color: var(--cream);
+    color: var(--red);
     height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     overflow: hidden;
 }
 
+.values .header {
+    top: 0;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 
 .valuesContainer {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
+    padding: 0 5%;
+}
+
+.valueCard {
+    flex: 1;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.icon {
+    width: 85%;
+    /* object-fit: contain; */
+    padding: 0;
+    margin: 0;
+}
+
+.cardTextBox {
+    position: relative;
+    width: 80%;
+    color: var(--green);
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: left;
+    margin: 0;
+    top: -5%;
+    padding: 0; 
+}
+
+.cardTitle {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.description {
+    width: 90%;
+    margin-top: 3%;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 500;
 }
 
 .border {
@@ -125,7 +172,7 @@
 
 .people {
     background-color: var(--cream);
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,3 +180,10 @@
     position: relative;
     overflow: hidden;
 }
+
+.peopleSvg{
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+peopleGrid{}
