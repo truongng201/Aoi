@@ -133,21 +133,22 @@ export default function Footer() {
         <h3>Visit Us</h3>
         <p>Khu đô thị Vinhomes Ocean Park, Gia Lâm, Hà Nội</p>
       </div>
-      {/* <div className={styles.contact}>
+      <div className={styles.socialicons}>
+        <i className="fab fa-facebook"></i>
+        <i className="fab fa-youtube"></i>
+        <i className="fab fa-tiktok"></i>
+      </div>
+      <div className={styles.contact}>
         <h3>Contact Us</h3>
-        <p>trhaidang2202@gmail.com</p>
-        <p>0866899176</p>
-        <div className={styles.socialicons}>
-          <i className="fab fa-facebook"></i>
-          <i className="fab fa-youtube"></i>
-          <i className="fab fa-tiktok"></i>
-        </div>
+        <p>
+          trhaidang2202@gmail.com <br /> 0866899176
+        </p>
       </div>
       <div className={styles.footerbottom}>
         <p>
-          À Ơi Limited. <a href="#">Privacy Policy</a>
+          À Ơi Limited.{"   "}<a href="#">Privacy Policy</a>
         </p>
-      </div> */}
+      </div>
     </div>
   );
 }

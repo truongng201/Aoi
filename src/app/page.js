@@ -1,15 +1,18 @@
 import styles from "./page.module.css";
 import Footer from "@/components/footer";
 import FirstBlock from "@/components/home/firstblock";
+import ForthBlock from "@/components/home/forthblock";
+import SecondBlock from "@/components/home/secondblock";
+import ThirdBlock from "@/components/home/thirdblock";
 
 export default function Home() {
   return (
     <>
       <div className={styles.page}>
         <FirstBlock />
-        <div className={styles.secondBlock}>Hello</div>
-        <div className={styles.thirdBlock}>Hey</div>
-        <div className={styles.forthBlock}>Yo</div>
+        <SecondBlock />
+        <ThirdBlock />
+        <ForthBlock/>
       </div>
       <Footer />
     </>

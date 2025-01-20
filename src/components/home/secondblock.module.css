@@ -1,0 +1,156 @@
+.secondBlock {
+  background-color: #365f2e;
+  height: 280vh;
+  position: relative;
+}
+
+.secondBlock .firstContent {
+  position: absolute;
+  width: 1260px;
+  height: 299px;
+  left: 108px;
+  top: 110px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 73px;
+  color: #f3e0c7;
+}
+
+.secondBlock .firstContent > span {
+  font-family: "Montserrat";
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 73.14px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffbf4d;
+}
+
+.secondBlock .firstImage {
+  position: absolute;
+  width: 480px;
+  height: 360px;
+  top: 473px;
+  left: 138px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.secondBlock .secondContent {
+  position: absolute;
+  width: 500px;
+  height: 216px;
+  top: 473px;
+  left: 730px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 37px;
+  font-weight: 500;
+  line-height: 45.1px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f3e0c7;
+}
+
+.secondBlock .divider {
+  position: absolute;
+  width: 852px;
+  top: 1012px;
+  height: 0px;
+  left: 328px;
+  border-top: 5px solid #f3e0c7;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+
+.secondBlock .thirdContent {
+  position: absolute;
+  width: 393px;
+  height: 446px;
+  top: 1240px;
+  left: 112px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff0d6;
+}
+
+.secondBlock .forthContent {
+  position: absolute;
+  width: 393px;
+  height: 307px;
+  top: 1240px;
+  left: 580px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff0d6;
+}
+
+.secondBlock .secondImage {
+  position: absolute;
+  top: 1229px;
+  left: 1028px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.secondBlock img {
+  width: 100%;
+  height: 100%;
+}
+
+.secondBlock .fifthContent {
+  position: absolute;
+  width: 436px;
+  height: 163px;
+  top: 1730px;
+  left: 114px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffbf4d;
+}
+
+.secondBlock .sixthContent {
+  position: absolute;
+  width: 436px;
+  height: 163px;
+  top: 1730px;
+  left: 579px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffbf4d;
+}
