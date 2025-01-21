@@ -28,10 +28,10 @@ const ProjectIntro = () => {
         </p>
       </div>
       <Image
-        src="/projects/central-circus.png"
+        src="/projects/central-circus/central-circus.png"
         alt="Central Circus"
-        width={300}
-        height={300}
+        width={250}
+        height={250}
         className={styles.cornerImg}
       />
     </div>

@@ -1,26 +1,116 @@
+body {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+}
+
 .projectDesc {
-    background-color: var(--cream);
-    color: var(--green);
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
+  background-color: var(--cream);
+  color: var(--green);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .goal {
-    height: 100%;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+  margin-top: 8%;
+  min-height: 100vh;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
+.textContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 
+.textContainer h2 {
+  font-size: 4.6vw;
+  font-family: "1FTV HF Gesco";
+  font-weight: 400;
+  line-height: 1;
+}
+
+.description {
+  right: 0;
+  width: 70%;
+  font-size: 1.59vw;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+.imgContainer {
+  margin-top: 5%;
+  width: 100%;
+  height: 70%;
+}
+
+.goalImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.strategy {
+  margin-top: 5%;
+  min-height: 100vh;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.imageGrid {
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  padding: 0;
+}
+
+.imageCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.strategyImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.result {
+    margin-top: 5%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.lastImgContainer{
+    margin-top: 5%;
+    width: 100%;
+    height: 70%;
+}
+
+.lastImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
