@@ -55,6 +55,7 @@
 }
 
 .icon {
+  width: 80%;
   object-fit: contain;
   padding: 0;
   margin: 0;
