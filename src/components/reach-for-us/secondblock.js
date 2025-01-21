@@ -8,7 +8,7 @@ export default function SecondBlock() {
     <div className={styles.secondblock}>
       <div className={styles.content}>
         <div className={styles.secondImage}>
-            <Image alt="image2" src={image2} />
+          <Image alt="image2" src={image2} />
         </div>
         <div className={styles.leftblock}>
           <div className={styles.subleftblock}>
@@ -73,25 +73,35 @@ export default function SecondBlock() {
               </div>
             </div>
             <div className={styles.thirdImage}>
-                <Image alt="image3" src={image3} />
+              <Image alt="image3" src={image3} />
             </div>
             <div className={styles.forthImage}>
-                <Image alt="image4" src={image3} />
+              <Image alt="image4" src={image3} />
             </div>
           </div>
         </div>
-        {/* <div className={styles.rightblock}>
-          <input type="text" placeholder="Name" className={styles.input} />
-          <input type="text" placeholder="Email" className={styles.input} />
-          <input type="text" placeholder="Phone" className={styles.input} />
-          <textarea
-            placeholder="LEAVE YOUR REQUEST"
-            className={styles.textarea}
-          ></textarea>
-          <div>
-            <p>Send your request</p>
+        <div className={styles.rightblock}>
+          <div className={styles.subrightblock}>
+            <div className={styles.inputname}>
+              <input type="text" placeholder="Name" />
+            </div>
+            <div className={styles.inputemail}>
+              <input type="text" placeholder="Email" />
+            </div>
+            <div className={styles.inputphone}>
+              <input type="text" placeholder="Phone" />
+            </div>
+            <div className={styles.inputorganization}>
+              <input type="text" placeholder="Organization" />
+            </div>
+            <div className={styles.inputmessage}>
+              <textarea placeholder="LEAVE YOUR REQUEST"></textarea>
+            </div>
+            <div className={styles.sendrequest}>
+              <p>Send your request</p>
+            </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );

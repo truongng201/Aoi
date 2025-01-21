@@ -132,7 +132,7 @@
   position: absolute;
   left: 212px;
   top: 500px;
-  width: 353px
+  width: 353px;
 }
 
 .secondblock .content .leftblock .subleftblock .forthImage {
@@ -143,7 +143,140 @@
   transform: rotateY(180deg);
 }
 
-.secondblock .content .leftblock .subleftblock img{
+.secondblock .content .leftblock .subleftblock img {
   width: 100%;
   height: 100%;
+}
+
+.secondblock .content .rightblock {
+  position: absolute;
+  right: 120px;
+  width: 580px;
+  height: 701px;
+  z-index: 0;
+}
+
+.secondblock .content .rightblock .subrightblock {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.secondblock .content .rightblock .subrightblock input {
+  background-color: #f3e0c7;
+  border-radius: 35px;
+  border: none;
+  width: 100%;
+  height: 59px;
+  padding: 30px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #a51f23;
+}
+
+.secondblock .content .rightblock .subrightblock input::placeholder {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #a51f23;
+}
+
+.secondblock .content .rightblock .subrightblock textarea {
+  background-color: #f3e0c7;
+  border-radius: 35px;
+  border: none;
+  width: 100%;
+  height: 263px;
+  padding: 30px;
+  resize: none;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #a51f23;
+}
+
+.secondblock .content .rightblock .subrightblock textarea::placeholder {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #a51f23;
+}
+
+.secondblock .content .rightblock .subrightblock input:focus {
+  outline: none;
+}
+.secondblock .content .rightblock .subrightblock textarea:focus {
+  outline: none;
+}
+
+
+.secondblock .content .rightblock .subrightblock .inputname {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.secondblock .content .rightblock .subrightblock .inputemail {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+}
+
+.secondblock .content .rightblock .subrightblock .inputphone {
+  position: absolute;
+  top: 180px;
+  width: 100%;
+}
+
+.secondblock .content .rightblock .subrightblock .inputorganization {
+  position: absolute;
+  top: 270px;
+  width: 100%;
+}
+
+.secondblock .content .rightblock .subrightblock .inputmessage {
+  position: absolute;
+  top: 360px;
+  width: 100%;
+}
+
+.secondblock .content .rightblock .subrightblock .sendrequest {
+  position: absolute;
+  top: 650px;
+  display: flex;
+  background-color: #a51f23;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+  width: 252px;
+  height: 54px;
+  cursor: pointer;
+}
+
+.secondblock .content .rightblock .subrightblock .sendrequest p {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f3e0c7;
 }
