@@ -4,7 +4,21 @@
   position: relative;
 }
 
-.forthBlock .firstContent {
+.forthBlock .content{
+  position: absolute;
+  max-width: 1470px;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.forthBlock .content .firstContent {
   position: absolute;
   width: 815px;
   height: 373px;
@@ -22,7 +36,7 @@
   color: #f3e0c7;
 }
 
-.forthBlock .secondContent {
+.forthBlock .content .secondContent {
   position: absolute;
   width: 363px;
   height: 379px;
@@ -40,7 +54,7 @@
   color: #f3e0c7;
 }
 
-.forthBlock .contactUs {
+.forthBlock .content .contactUs {
   position: absolute;
   width: 281px;
   height: 71px;

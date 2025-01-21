@@ -1,4 +1,5 @@
 import styles from "./thirdblock.module.css";
+import Link from "next/link";
 
 export default function ThirdBlock() {
   return (
@@ -19,9 +20,12 @@ export default function ThirdBlock() {
         toward <br /> our vision: bringing Vietnamese culture closer to modern
         hearts while ensuring <br /> its legacy endures for generations to come.
       </div>
-      <div className={styles.workWithUs}>
-        <p>WORK WITH US</p>
-      </div>
+      <Link href="reach-for-us">
+        {" "}
+        <div className={styles.workWithUs}>
+          <p>WORK WITH US</p>
+        </div>
+      </Link>
     </div>
   );
 }
