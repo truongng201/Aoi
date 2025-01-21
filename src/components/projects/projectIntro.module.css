@@ -1,0 +1,87 @@
+:root {
+  --green: #365f2e;
+  --cream: #f3e0c7;
+  --yellow: #ffbf4d;
+  --red: #a51f23;
+}
+
+.projectIntro {
+  background-color: var(--red);
+  color: var(--yellow);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.projectIntro .content {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.projectIntro .header {
+  position: absolute;
+  top: 2%;
+  opacity: 0;
+  animation: appear 1s ease forwards;
+}
+
+.projectIntro .logo {
+  object-fit: contain;
+  /* width: 10%; */
+  margin: 0;
+  padding: 0;
+}
+
+.projectIntro .subheader{
+    font-size: 3vw;
+    font-weight: 500;
+    opacity: 0;
+    animation: appear 1s ease forwards 0.3s;
+}
+
+.projectIntro .title {
+    font-size: 10vw;
+    font-weight: 500;
+    opacity: 0;
+    animation: appear 1s ease forwards 0.3s;
+}
+
+.projectIntro .description {
+    color: white;
+    width: 80%;
+    font-size: 1.6vw;
+    font-weight: 300;
+    opacity: 0;
+    animation: appear 1s ease forwards 1s;
+}
+
+.cornerImg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    animation: appear 1s ease forwards 1s;
+}
+
+@keyframes appear {
+    0% {
+        transform: translateY(5%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
