@@ -1,7 +1,8 @@
 .secondblock {
   background-color: #f3e0c7;
-  height: 400vh;
+  height: 470vh;
   position: relative;
+  width: 100%;
 }
 
 .secondblock .content {
@@ -50,7 +51,7 @@
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color:#365F2E
+  color: #365f2e;
 }
 
 .secondblock .content .description3 {
@@ -63,7 +64,7 @@
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color:#365F2E
+  color: #365f2e;
 }
 
 .secondblock .leftImage {
@@ -87,4 +88,262 @@
 .secondblock img {
   width: 100%;
   height: 100%;
+}
+
+.secondblock .dividerContainer {
+  position: absolute;
+  width: 100%;
+  top: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondblock .dividerContainer .divider {
+  width: 852px;
+  height: 0px;
+  border-top: 5px solid #060606;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+
+.secondblock .description4 {
+  position: absolute;
+  width: 100%;
+  top: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondblock .description4 p {
+  font-family: "Montserrat";
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 73.14px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #a51f23;
+}
+
+.secondblock .description4 span {
+  font-family: "Montserrat";
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 73.14px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #365f2e;
+}
+
+.secondblock .journey {
+  position: absolute;
+  max-width: 1470px;
+  width: 100%;
+  height: 170vh;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.secondblock .journey img {
+  width: 100%;
+  height: 100%;
+}
+
+.secondblock .journey .image2 {
+  position: absolute;
+  width: 779px;
+  height: 550px;
+}
+
+.secondblock .journey .description1 {
+  position: absolute;
+  top: 70px;
+  right: 100px;
+}
+
+.secondblock .journey .description1 p {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #365f2e;
+}
+
+.secondblock .journey .graphic1 {
+  position: absolute;
+  width: 316px;
+  height: 248px;
+  top: 330px;
+  left: 700px;
+}
+
+.secondblock .journey .graphic1 svg {
+  width: 100%;
+  height: 100%;
+}
+
+.secondblock .journey .graphic2 {
+  position: absolute;
+  top: 380px;
+  left: 770px;
+}
+
+.secondblock .journey .graphic3 {
+  position: absolute;
+  top: 450px;
+  left: 1050px;
+}
+
+.secondblock .journey .image3 {
+  position: absolute;
+  top: 500px;
+  left: 420px;
+  z-index: 1;
+  width: 1100px;
+}
+
+.secondblock .journey .image3 img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.secondblock .journey .description2 {
+  position: absolute;
+  top: 600px;
+  left: 80px;
+}
+.secondblock .journey .description2 p {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #365f2e;
+}
+
+.secondblock .journey .graphic4 {
+  position: absolute;
+  top: 850px;
+  left:114px;
+  z-index: 0;
+  width: 619px;
+  height: 395px;
+}
+
+.secondblock .journey .graphic4 svg {
+  width: 100%;
+  height: 100%;
+}
+
+.secondblock .journey .graphic5 {
+  position: absolute;
+  top: 900px;
+  left: 500px;
+}
+
+.secondblock .journey .graphic6 {
+  position: absolute;
+  top: 950px;
+  left: 430px;
+}
+
+.secondblock .journey .image4 {
+  position: absolute;
+  top: 1050px;
+  z-index: 1;
+  width: 1037px;
+}
+
+.secondblock .journey .image4 img{
+  width: 100%;
+  height: 100%;
+}
+
+.secondblock .journey .description3 {
+  position: absolute;
+  top: 1120px;
+  right: 100px;
+}
+
+.secondblock .journey .description3 p {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #365f2e;
+}
+
+.secondblock .journey .graphic7 {
+  position: absolute;
+  top: 1300px;
+  left: 700px;
+  z-index: 1;
+}
+
+.secondblock .journey .graphic8 {
+  position: absolute;
+  top: 1350px;
+  right: 100px;
+  z-index:1;
+}
+
+.secondblock .journey .graphic9 {
+  position: absolute;
+  top: 1500px;
+  right: 520px;
+  z-index:1;
+}
+
+.secondblock .journey .graphic10{
+  position: absolute;
+  top: 1750px;
+  right: 440px;
+  z-index:1;
+}
+
+.secondblock .journey .image5 {
+  position: absolute;
+  top: 1450px;
+  z-index: 0;
+  width: 1512px;
+}
+
+.secondblock .journey .image6{
+  position: absolute;
+  top: 2250px;
+  left: 529px;
+  z-index: 0;
+  width: 407px;
+}
+
+.secondblock .image7{
+  position: absolute;
+  top: 3350px;
+  left: -153px;
+  z-index: 0;
+  width: 621px;
+}
+
+.secondblock .image8{
+  position: absolute;
+  top: 3350px;
+  right: -153px;
+  z-index: 0;
+  width: 621px;
+  transform: rotateY(180deg);
 }
