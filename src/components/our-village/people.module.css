@@ -1,0 +1,113 @@
+:root {
+  --green: #365f2e;
+  --cream: #f3e0c7;
+  --yellow: #ffbf4d;
+  --red: #a51f23;
+}
+
+/* People section */
+
+.people {
+  background-color: var(--cream);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 10%;
+}
+
+.peopleSvg {
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+
+.peopleGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  padding: 0 5%;
+}
+
+.peopleCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.peopleImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s;
+}
+
+.peopleInfo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--red);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.peopleCard {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.peopleCard:hover .peopleImg {
+  opacity: 0;
+  transition: opacity 600ms ease-out;
+}
+
+.peopleCard:hover .peopleInfo {
+  opacity: 1;
+  transition: opacity 600ms ease-out;
+}
+
+.peopleName {
+  margin: 5%;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 28.04px;
+  letter-spacing: 0.14em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.peopleRole {
+  font-family: Inria Serif;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 29.98px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.peopleQuote {
+  width: 80%;
+  margin: 5%;
+  font-family: Montserrat;
+  font-size: clamp(20px, 21vw, 26px);
+  font-style: italic;
+  font-weight: 500;
+  line-height: 31.69px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
