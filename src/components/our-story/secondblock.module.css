@@ -1,5 +1,90 @@
 .secondblock {
-  background-color: #F3E0C7;
+  background-color: #f3e0c7;
   height: 400vh;
   position: relative;
+}
+
+.secondblock .content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.secondblock .content .title {
+  position: absolute;
+  top: 106px;
+  font-family: "Montserrat";
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 85.33px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #a51f23;
+}
+
+.secondblock .content .description1 {
+  position: absolute;
+  top: 213px;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #a51f23;
+}
+
+.secondblock .content .description2 {
+  position: absolute;
+  top: 350px;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.26px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:#365F2E
+}
+
+.secondblock .content .description3 {
+  position: absolute;
+  top: 520px;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.26px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color:#365F2E
+}
+
+.secondblock .leftImage {
+  position: absolute;
+  height: 601px;
+  top: 61px;
+  left: -790px;
+  gap: 0px;
+  object-fit: cover;
+}
+
+.secondblock .rightImage {
+  position: absolute;
+  height: 601px;
+  top: 61px;
+  right: -800px;
+  gap: 0px;
+  object-fit: cover;
+}
+
+.secondblock img {
+  width: 100%;
+  height: 100%;
 }
