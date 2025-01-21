@@ -1,5 +1,96 @@
 .firstBlock {
   background-color: #060606;
-  height: 145vh;
+  height: 100vh;
   position: relative;
+}
+
+.firstBlock .content {
+  height: 100vh;
+  width: 75%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.firstBlock .content .title {
+  position: absolute;
+  top: 126px;
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 55.08px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f3e0c7;
+}
+
+.firstBlock .content .description {
+  position: absolute;
+  top: 263px;
+  font-family: "Montserrat";
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 73.14px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f3e0c7;
+}
+
+.firstBlock .content .description span {
+  font-family: "Montserrat";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 73.14px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffbf4d;
+}
+
+.firstBlock .graphicLeft,
+.firstBlock .graphicRight {
+  position: absolute;
+  bottom: 12%;
+}
+
+.firstBlock .graphicLeft {
+  opacity: 0;
+  left: 20%;
+  animation: moveLeft 1.5s ease forwards 0.7s;
+}
+
+@keyframes moveLeft {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0%;
+    transform: translateX(0);
+  }
+}
+
+.firstBlock .graphicRight {
+  opacity: 0;
+  right: 20%;
+  animation: moveRight ease 1.5s forwards 0.7s;
+}
+
+@keyframes moveRight {
+  0% {
+    opacity: 0;
+    right: 20%;
+  }
+  100% {
+    opacity: 1;
+    right: 0%;
+    transform: translateX(0);
+  }
 }
