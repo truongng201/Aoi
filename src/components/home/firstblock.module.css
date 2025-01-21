@@ -1,6 +1,6 @@
 .firstBlock {
   background-color: #f3e0c7;
-  height: 145vh;
+  height: 120vh;
   position: relative;
 }
 
@@ -66,30 +66,30 @@
 
 .firstBlock .vector7 {
   position: absolute;
-  width: 1036.52px;
+  width: 534px;
   height: 858px;
   top: 16px;
-  left: 978.48px;
+  right: 0px;
   gap: 0px;
   opacity: 0px;
 }
 
 .firstBlock .vector8 {
   position: absolute;
-  width: 663.47px;
+  width: 421px;
   height: 607.25px;
   top: 332.06px;
-  left: 1091.69px;
+  right: 0px;
   gap: 0px;
   opacity: 0px;
 }
 
 .firstBlock .vector9 {
   position: absolute;
-  width: 375.2px;
+  width: 264px;
   height: 391.13px;
   top: 519.2px;
-  left: 1248.22px;
+  right: 0px;
   gap: 0px;
   opacity: 0px;
 }
