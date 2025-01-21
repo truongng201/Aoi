@@ -48,6 +48,10 @@ body {
   font-weight: 500;
 }
 
+.description p {
+  margin-top: 2%;
+}
+
 .imgContainer {
   margin-top: 5%;
   width: 100%;
