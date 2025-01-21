@@ -1,6 +1,6 @@
 .firstblock {
   background-color: #f3e0c7;
-  height: 120vh;
+  height: 100vh;
   position: relative;
   width: 100%;
 }
@@ -8,23 +8,37 @@
 .firstblock .firstImage {
   position: absolute;
   top: -66px;
-  right: -160px;
+  right: -270px;
   width: 1334px;
 }
 
 .firstblock .firstImage img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
 }
 
 .firstblock .title {
   position: absolute;
   left: 92px;
-  top: 580px;
+  top: 420px;
   font-family: "1FTV HF Gesco";
   font-size: 200px;
   font-weight: 400;
   line-height: 275.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #A51F23
+}
+
+.firstblock .description{
+  position: absolute;
+  left: 92px;
+  top: 700px;
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43.88px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;

@@ -1,7 +1,149 @@
 .secondblock {
-    background-color: #FFFAF3;
-    height: 100vh;
-    position: relative;
-  }
-  
-  
+  background-color: #fffaf3;
+  height: 100vh;
+  position: relative;
+}
+
+.secondblock .content {
+  position: absolute;
+  max-width: 1470px;
+  width: 100%;
+  height: 100vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondblock .content .secondImage {
+  position: absolute;
+  width: 252px;
+  top: -40px;
+  left: 550px;
+  z-index: 1;
+}
+
+.secondblock .content .secondImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.secondblock .content .leftblock {
+  position: absolute;
+  left: 100px;
+  width: 565px;
+  background-color: #a51f23;
+  height: 701px;
+  z-index: 0;
+}
+
+.secondblock .content .leftblock .subleftblock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.secondblock .content .leftblock .subleftblock .title {
+  position: absolute;
+  top: 30px;
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.88px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fffaf3;
+}
+
+.secondblock .content .leftblock .subleftblock .section1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 117px;
+}
+
+.secondblock .content .leftblock .subleftblock .section2 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 217px;
+}
+
+.secondblock .content .leftblock .subleftblock .section3 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 317px;
+}
+
+.secondblock .content .leftblock .subleftblock .section4 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 430px;
+}
+
+.secondblock .content .leftblock .subleftblock .head {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.38px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.secondblock .content .leftblock .subleftblock .body {
+  margin-top: 10px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.secondblock .content .leftblock .subleftblock .icon {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.secondblock .content .leftblock .subleftblock .thirdImage {
+  position: absolute;
+  left: 212px;
+  top: 500px;
+  width: 353px
+}
+
+.secondblock .content .leftblock .subleftblock .forthImage {
+  position: absolute;
+  right: 212px;
+  top: 500px;
+  width: 353px;
+  transform: rotateY(180deg);
+}
+
+.secondblock .content .leftblock .subleftblock img{
+  width: 100%;
+  height: 100%;
+}
