@@ -1,0 +1,17 @@
+:root {
+    --green: #365f2e;
+    --cream: #f3e0c7;
+    --yellow: #ffbf4d;
+    --red: #a51f23;
+}
+
+.testimony {
+    background-color: black;
+    color: var(--cream);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}

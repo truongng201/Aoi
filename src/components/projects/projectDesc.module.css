@@ -1,0 +1,33 @@
+:root {
+    --green: #365f2e;
+    --cream: #f3e0c7;
+    --yellow: #ffbf4d;
+    --red: #a51f23;
+}
+
+.projectDesc {
+    background-color: var(--cream);
+    color: var(--green);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.goal {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+

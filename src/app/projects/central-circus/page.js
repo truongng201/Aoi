@@ -1,8 +1,14 @@
 import ProjectIntro from "./projectIntro";
+import ProjectDesc from "./projectDesc";
+import Testimony from "./testimony";
 
 export default function CentralCircus() {
     return (
-      <ProjectIntro />
+      <>
+        <ProjectIntro />
+        <ProjectDesc />
+        <Testimony />
+      </>
     );
   }
   

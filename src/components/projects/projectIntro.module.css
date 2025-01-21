@@ -6,6 +6,7 @@
 }
 
 .projectIntro {
+  font-family: "Montserrat";
   background-color: var(--red);
   color: var(--yellow);
   height: 100vh;
@@ -39,49 +40,52 @@
 
 .projectIntro .logo {
   object-fit: contain;
-  /* width: 10%; */
   margin: 0;
   padding: 0;
 }
 
-.projectIntro .subheader{
-    font-size: 3vw;
-    font-weight: 500;
-    opacity: 0;
-    animation: appear 1s ease forwards 0.3s;
+.projectIntro .subheader {
+  font-size: 3.2vw;
+  font-weight: 400;
+  font-family: "1FTV HF Gesco";
+  opacity: 0;
+  animation: appear 1s ease forwards 0.3s;
 }
 
 .projectIntro .title {
-    font-size: 10vw;
-    font-weight: 500;
-    opacity: 0;
-    animation: appear 1s ease forwards 0.3s;
+  position: relative;
+  top: -5%;
+  font-size: 13vw;
+  font-weight: 400;
+  font-family: "1FTV HF Gesco";
+  opacity: 0;
+  animation: appear 1s ease forwards 0.3s;
 }
 
 .projectIntro .description {
-    color: white;
-    width: 80%;
-    font-size: 1.6vw;
-    font-weight: 300;
-    opacity: 0;
-    animation: appear 1s ease forwards 1s;
+  color: white;
+  width: 80%;
+  font-size: 1.6vw;
+  font-weight: 300;
+  opacity: 0;
+  animation: appear 1s ease forwards 1s;
 }
 
 .cornerImg {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    opacity: 0;
-    animation: appear 1s ease forwards 1s;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  animation: appear 1s ease forwards 1s;
 }
 
 @keyframes appear {
-    0% {
-        transform: translateY(5%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
+  0% {
+    transform: translateY(5%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }

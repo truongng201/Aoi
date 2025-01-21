@@ -9,6 +9,7 @@
   align-items: center;
   position: relative;
   overflow: hidden;
+  font-family: 'Montserrat';
 }
 
 .values .header {
@@ -24,7 +25,7 @@
 
 .values .subtitle {
   font-family: "1FTV HF Gesco";
-  font-size: 56px;
+  font-size: 4.6vw;
   font-weight: 400;
   line-height: 96.39px;
   text-align: center;
@@ -68,8 +69,8 @@
 
 .cardTitle {
   font-family: "1FTV HF Gesco";
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 2.4vw;
+  font-weight: 400;
   line-height: 49.57px;
   text-align: left;
   text-underline-position: from-font;
@@ -77,8 +78,9 @@
 }
 
 .description {
+  margin-top: 2%;
   width: 90%;
-  font-size: 20px;
+  font-size: 1.3vw;
   font-weight: 500;
   line-height: 24.38px;
   text-align: left;
