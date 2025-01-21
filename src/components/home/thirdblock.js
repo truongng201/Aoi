@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./thirdblock.module.css";
-import image3 from "@/public/components/home/image3.png";
+import image3 from "@public/home/image3.png";
 
 export default function ThirdBlock() {
   return (

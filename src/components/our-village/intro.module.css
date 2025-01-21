@@ -1,10 +1,3 @@
-:root {
-  --green: #365f2e;
-  --cream: #f3e0c7;
-  --yellow: #ffbf4d;
-  --red: #a51f23;
-}
-
 /* Intro section */
 .intro {
   background-color: var(--green);

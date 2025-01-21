@@ -3,6 +3,7 @@ import "./globals.css";
 
 const montserrat = Montserrat({
   variable: "--font-geist-sans",
+  subsets: ["latin"],
 });
 
 

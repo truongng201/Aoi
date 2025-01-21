@@ -24,7 +24,7 @@
   height: 69px;
   top: 50px;
   gap: 0px;
-  opacity: 0px;
+  
   font-family: "Montserrat";
   font-size: 70px;
   font-weight: 600;
@@ -41,7 +41,7 @@
   height: 181px;
   top: 222px;
   gap: 0px;
-  opacity: 0px;
+  
   font-family: "Montserrat";
   font-size: 49px;
   font-weight: 500;
@@ -88,7 +88,7 @@
   top: 499px;
   left: 658px;
   gap: 0px;
-  opacity: 0px;
+  
   border: 5px solid #f3e0c7;
   border-radius: 50%;
   background-color: #a51f23;
