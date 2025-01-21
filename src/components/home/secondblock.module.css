@@ -1,10 +1,20 @@
 .secondBlock {
   background-color: #365f2e;
-  height: 280vh;
+  height: 240vh;
   position: relative;
 }
 
-.secondBlock .firstContent {
+.secondBlock .content {
+  position: absolute;
+  max-width: 1470px;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.secondBlock .content .firstContent {
   position: absolute;
   width: 1260px;
   height: 299px;
@@ -18,7 +28,7 @@
   color: #f3e0c7;
 }
 
-.secondBlock .firstContent > span {
+.secondBlock .content .firstContent > span {
   font-family: "Montserrat";
   font-size: 60px;
   font-style: italic;
@@ -30,7 +40,7 @@
   color: #ffbf4d;
 }
 
-.secondBlock .firstImage {
+.secondBlock .content .firstImage {
   position: absolute;
   width: 480px;
   height: 360px;
@@ -40,9 +50,34 @@
   opacity: 0px;
 }
 
-.secondBlock .secondContent {
+.secondBlock .content .firstRoute {
   position: absolute;
-  width: 500px;
+  right: 100px;
+  top: 873px;
+  display: flex;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.secondBlock .content .firstRoute p {
+  margin-left: 30px;
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39.01px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffbf4d;
+  cursor: pointer;
+}
+
+.secondBlock .content .secondContent {
+  position: absolute;
+  width: 630px;
   height: 216px;
   top: 473px;
   left: 730px;
@@ -58,7 +93,7 @@
   color: #f3e0c7;
 }
 
-.secondBlock .divider {
+.secondBlock .content .divider {
   position: absolute;
   width: 852px;
   top: 1012px;
@@ -70,7 +105,7 @@
   border-left: 0px;
 }
 
-.secondBlock .thirdContent {
+.secondBlock .content .thirdContent {
   position: absolute;
   width: 393px;
   height: 446px;
@@ -88,7 +123,7 @@
   color: #fff0d6;
 }
 
-.secondBlock .forthContent {
+.secondBlock .content .forthContent {
   position: absolute;
   width: 393px;
   height: 307px;
@@ -106,7 +141,7 @@
   color: #fff0d6;
 }
 
-.secondBlock .secondImage {
+.secondBlock .content .secondImage {
   position: absolute;
   top: 1229px;
   left: 1028px;
@@ -119,7 +154,7 @@
   height: 100%;
 }
 
-.secondBlock .fifthContent {
+.secondBlock .content .fifthContent {
   position: absolute;
   width: 436px;
   height: 163px;
@@ -137,7 +172,7 @@
   color: #ffbf4d;
 }
 
-.secondBlock .sixthContent {
+.secondBlock .content .sixthContent {
   position: absolute;
   width: 436px;
   height: 163px;
@@ -153,4 +188,29 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #ffbf4d;
+}
+
+.secondBlock .content .secondRoute {
+  position: absolute;
+  right: 100px;
+  top: 1730px;
+  display: flex;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.secondBlock .content .secondRoute p {
+  margin-left: 30px;
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39.01px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffbf4d;
+  cursor: pointer;
 }
