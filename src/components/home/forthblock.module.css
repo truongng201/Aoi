@@ -25,7 +25,7 @@
   top: 184px;
   left: 78px;
   gap: 0px;
-  opacity: 0px;
+  
   font-family: "Montserrat";
   font-size: 32px;
   font-weight: 500;
@@ -43,7 +43,7 @@
   top: 184px;
   left: 1005px;
   gap: 0px;
-  opacity: 0px;
+  
   font-family: "Montserrat";
   font-size: 54px;
   font-weight: 500;
@@ -62,7 +62,7 @@
   left: 89px;
   gap: 0px;
   border-radius: 37px;
-  opacity: 0px;
+  
   background-color: #f3e0c7;
   display: flex;
   justify-content: center;

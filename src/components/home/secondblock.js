@@ -1,7 +1,7 @@
 import styles from "./secondblock.module.css";
 import Image from "next/image";
-import image1 from "@/public/components/home/image1.png";
-import image2 from "@/public/components/home/image2.png";
+import image1 from "@public/home/image1.png";
+import image2 from "@public/home/image2.png";
 import Link from "next/link";
 
 export default function SecondBlock() {
