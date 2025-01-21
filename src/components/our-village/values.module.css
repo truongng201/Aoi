@@ -1,0 +1,102 @@
+:root {
+  --green: #365f2e;
+  --cream: #f3e0c7;
+  --yellow: #ffbf4d;
+  --red: #a51f23;
+}
+
+/* Values section */
+
+.values {
+  background-color: var(--cream);
+  color: var(--red);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.values .header {
+  position: absolute;
+  top: 2%;
+  top: 0;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.values .subtitle {
+  font-family: 1FTV HF Gesco;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 96.39px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.valuesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 5%;
+}
+
+.valueCard {
+  flex: 1;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.icon {
+  object-fit: contain;
+  padding: 0;
+  margin: 0;
+}
+
+.cardTextBox {
+  position: relative;
+  width: 90%;
+  color: var(--green);
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: left;
+  margin: 0;
+  top: -5%;
+  padding: 0;
+}
+
+.cardTitle {
+  font-family: 1FTV HF Gesco;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 49.57px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.description {
+  width: 90%;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.border {
+  width: 55%;
+  height: 5px;
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  border-radius: 5px;
+}
