@@ -9,7 +9,7 @@ const Values = () => {
       </div>
       <div className={styles.valuesContainer}>
         <div className={styles.valueCard}>
-          <Image src="/village/value1.png" width={460} height={320} className={styles.icon} alt="Value 1" />
+          <Image src="/village/value1.png" width={100} height={100} className={styles.icon} alt="Value 1" layout="responsive" />
           <div className={styles.cardTextBox}>
             <h2 className={styles.cardTitle}>Celebrate Heritage</h2>
             <p className={styles.description}>
@@ -19,7 +19,7 @@ const Values = () => {
           </div>
         </div>
         <div className={styles.valueCard}>
-          <Image src="/village/value2.png" width={460} height={320} className={styles.icon} alt="Value 2" />
+          <Image src="/village/value2.png" width={100} height={100} className={styles.icon} alt="Value 2" layout="responsive" />
           <div className={styles.cardTextBox}>
             <h2 className={styles.cardTitle}>Embrace the Challenge</h2>
             <p className={styles.description}>
@@ -29,7 +29,7 @@ const Values = () => {
           </div>
         </div>
         <div className={styles.valueCard}>
-          <Image src="/village/value3.png" width={460} height={320} className={styles.icon} alt="Value 3" />
+          <Image src="/village/value3.png" width={100} height={100} className={styles.icon} alt="Value 3" layout="responsive" />
           <div className={styles.cardTextBox}>
             <h2 className={styles.cardTitle}>Think Beyond Borders</h2>
             <p className={styles.description}>

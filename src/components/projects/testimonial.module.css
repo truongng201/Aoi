@@ -1,0 +1,122 @@
+body {
+  font-family: "Montserrat";
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+/* Testimonial section */
+
+.testimonial {
+  color: var(--cream);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonial .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  padding: 5%;
+}
+
+.quote {
+  font-size: 3.9vw;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.detailsBlock {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.nothing {
+  width: 50%;
+}
+
+.details {
+  font-size: 1.6vw;
+  font-weight: 500;
+  width: 50%;
+  right: 0;
+}
+
+.details p {
+  margin-top: 5%;
+}
+
+.border {
+  width: 55%;
+  height: 5px;
+  position: relative;
+  background-color: var(--cream);
+  border-radius: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 5% 0;
+}
+
+/* Stats section */
+
+.stats {
+  background-color: black;
+  color: var(--cream);
+  padding: 5% 5% 10%;
+}
+
+.statsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.statItem {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.statValue {
+  font-family: "1FTV HF Gesco";
+  font-size: 6.35vw;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.statDescription {
+  font-size: 1.6vw;
+  font-weight: 500;
+}
+
+.ctaButton button {
+  font-family: "Montserrat";
+  position: relative;
+  width: 23vw;
+  left: 50%;
+  aspect-ratio: 5/1;
+  transform: translateX(-50%);
+  background-color: var(--cream);
+  color: var(--green);
+  padding: 10px 20px;
+  font-size: 2.1vw;
+  font-weight: 600;
+  border: none;
+  border-radius: 37px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ctaButton button:hover {
+  background-color: var(--cream);
+}
