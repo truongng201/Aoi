@@ -10,6 +10,7 @@
   position: relative;
   overflow: hidden;
   padding-bottom: 10%;
+  font-family: "Montserrat";
 }
 
 .peopleSvg {
@@ -74,8 +75,7 @@
 
 .peopleName {
   margin: 5%;
-  font-family: Montserrat;
-  font-size: 26px;
+  font-size: 1.7vw;
   font-weight: 800;
   line-height: 28.04px;
   letter-spacing: 0.14em;
@@ -84,10 +84,10 @@
 }
 
 .peopleRole {
-  font-family: Inria Serif;
-  font-size: 25px;
+  font-family: "Inria Serif";
+  font-size: 1.6vw;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 29.98px;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -96,10 +96,9 @@
 .peopleQuote {
   width: 80%;
   margin: 5%;
-  font-family: Montserrat;
-  font-size: clamp(20px, 21vw, 26px);
+  font-size: 1.3vw;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 31.69px;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;

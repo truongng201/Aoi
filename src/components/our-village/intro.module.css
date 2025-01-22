@@ -52,17 +52,18 @@
 }
 
 .subtitle {
-  font-size: 40px;
-  font-family: "1FTV HF Gesco", sans-serif;
+  font-size: 2.65vw;
+  font-family: "1FTV HF Gesco";
+  font-weight: 400;
   text-transform: uppercase;
   margin-top: 5%;
 }
 
 .tagline {
-  font-size: 50px;
+  font-size: 3.9vw;
   font-weight: 500;
   line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   opacity: 0;
   animation: appear 2s ease forwards;
   animation-delay: 0.3s;
