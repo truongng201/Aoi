@@ -1,6 +1,24 @@
-/* .header {
+.header {
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 
-} */
+.header .logo {
+  position: absolute;
+  top: 37px;
+  width: 128px;
+  height: 71px
+}
+
+.header .logo img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
 
 .header .menubutton {
   position: fixed;

@@ -2,7 +2,7 @@ import styles from "@/components/projects/testimonial.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-const Testimonial = () => {
+export default function Testimonial(){
   return (
     <>
       <div className={styles.testimonial}>
@@ -29,7 +29,7 @@ const Testimonial = () => {
           </div>
         </div>
       </div>
-      <div className={styles.border}></div>
+      <div className={styles.border}><span></span></div>
       <div className={styles.stats}>
         <div className={styles.statsContainer}>
           <div className={styles.statItem}>
@@ -50,11 +50,12 @@ const Testimonial = () => {
           </div>
         </div>
         <div className={styles.ctaButton}>
-          <button>WORK WITH US</button>
+          <Link href="/reach-for-us">
+            <button>WORK WITH US</button>
+          </Link>
         </div>
       </div>
     </>
   );
 };
 
-export default Testimonial;

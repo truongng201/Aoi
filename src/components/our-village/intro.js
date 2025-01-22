@@ -5,20 +5,9 @@ import Image from 'next/image';
 const Intro = () => {
   return (
     <div className={styles.intro}>
-      <button className={styles.navigationButton}>
-        <span>&#8594;</span>
-      </button>
+     
       <div className={styles.content}>
         <div className={styles.header}>
-          <Link href="/" passHref>
-            <Image
-              className={styles.logo}
-              src="/village/logo.png"
-              alt="Logo"
-              width={128}
-              height={71}
-            />
-          </Link>
           <h2 className={styles.subtitle}>OUR VILLAGE</h2>
         </div>
         <p className={styles.tagline}>
