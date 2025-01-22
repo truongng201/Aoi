@@ -1,0 +1,23 @@
+/* .header {
+
+} */
+
+.header .menubutton {
+  position: fixed;
+  width: 101px;
+  height: 101px;
+  top: 37px;
+  left: 29px;
+  gap: 0px;
+  border-radius: 10px;
+  background-color: #a51f23;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.header .menubutton:hover {
+  background-color: #a51f23e9;
+}

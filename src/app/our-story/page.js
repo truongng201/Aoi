@@ -1,4 +1,4 @@
-import Footer from "@/components/footer";
+import Footer from "@/components/shared/footer";
 import FirstBlock from "@/components/our-story/firstblock";
 import SecondBlock from "@/components/our-story/secondblock";
 import ThirdBlock from "@/components/our-story/thirdblock";
