@@ -1,13 +1,15 @@
 import ProjectIntro from "./projectIntro";
 import ProjectDesc from "./projectDesc";
-import Testimony from "./testimony";
+import Testimonial from "./testimonial";
+import Footer from "@/components/footer";
 
 export default function CentralCircus() {
     return (
       <>
         <ProjectIntro />
         <ProjectDesc />
-        <Testimony />
+        <Testimonial />
+        <Footer />
       </>
     );
   }
