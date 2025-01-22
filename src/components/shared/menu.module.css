@@ -1,0 +1,125 @@
+.menu {
+  position: fixed;
+  display: none;
+  width: 572px;
+  height: 90vh;
+  top: 37px;
+  left: 29px;
+  gap: 0px;
+  border-radius: 10px;
+  background-color: #a51f23;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.menuOpen{
+  display: block;
+}
+
+.menu .closemenu{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.menu .content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.menu .content .menuitems {
+  position: absolute;
+  top: 48px;
+  left: 48px;
+}
+
+.menu .content .menuitems .menuitem {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.menu .content .menuitems .menuitem a {
+  font-family: "Montserrat";
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 35.35px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.menu .content .divider {
+  position: absolute;
+  top: 380px;
+  left: 48px;
+  height: 0px;
+  width: 80%;
+  border-top: 1px solid #ffffff;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+}
+
+.menu .content .section1 {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  position: absolute;
+  top: 430px;
+  left: 48px;
+}
+
+.menu .content .section2 {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  position: absolute;
+  top: 520px;
+  left: 48px;
+}
+
+.menu .content .header {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.menu .content .body {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24.38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.menu .content .socialicons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 30px;
+}
+
+.menu .content .socialicons > svg{
+  margin-left: 20px;
+  cursor: pointer;
+}
