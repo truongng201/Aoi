@@ -2,8 +2,8 @@ export async function POST(req) {
   try {
     const { name, email, phone, organization, message } = await req.json();
 
-    const BOT_TOKEN = "7974569016:AAFCAoyPl0oHlzwKXr9VN19mDB21dSD8GMM";
-    const CHAT_ID = "-4682495521";
+    const BOT_TOKEN = process.env.BOT_TOKEN;
+    const CHAT_ID = process.env.CHAT_ID;
 
     const text = `New Request:
       Name: ${name}
