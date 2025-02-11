@@ -1,9 +1,49 @@
+"use client";
+
+import { useState } from "react";
 import styles from "./secondblock.module.css";
 import Image from "next/image";
 import image2 from "@public/reach-for-us/image2.png";
 import image3 from "@public/reach-for-us/image3.png";
 
 export default function SecondBlock() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    organization: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async () => {
+    try {
+      const response = await fetch("/api/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      if (response.ok) {
+        alert("Message sent successfully!");
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          organization: "",
+          message: "",
+        });
+      } else {
+        alert("Failed to send the request.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("An error occurred while sending your request.");
+    }
+  };
+
   return (
     <div className={styles.secondblock}>
       <div className={styles.content}>
@@ -83,21 +123,50 @@ export default function SecondBlock() {
         <div className={styles.rightblock}>
           <div className={styles.subrightblock}>
             <div className={styles.inputname}>
-              <input type="text" placeholder="Name" />
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                value={formData.name}
+                onChange={handleChange}
+              />
             </div>
             <div className={styles.inputemail}>
-              <input type="text" placeholder="Email" />
+              <input
+                type="text"
+                name="email"
+                placeholder="Email"
+                value={formData.email}
+                onChange={handleChange}
+              />
             </div>
             <div className={styles.inputphone}>
-              <input type="text" placeholder="Phone" />
+              <input
+                type="text"
+                name="phone"
+                placeholder="Phone"
+                value={formData.phone}
+                onChange={handleChange}
+              />
             </div>
             <div className={styles.inputorganization}>
-              <input type="text" placeholder="Organization" />
+              <input
+                type="text"
+                name="organization"
+                placeholder="Organization"
+                value={formData.organization}
+                onChange={handleChange}
+              />
             </div>
             <div className={styles.inputmessage}>
-              <textarea placeholder="LEAVE YOUR REQUEST"></textarea>
+              <textarea
+                name="message"
+                placeholder="LEAVE YOUR REQUEST"
+                value={formData.message}
+                onChange={handleChange}
+              />
             </div>
-            <div className={styles.sendrequest}>
+            <div className={styles.sendrequest} onClick={handleSubmit}>
               <p>Send your request</p>
             </div>
           </div>
